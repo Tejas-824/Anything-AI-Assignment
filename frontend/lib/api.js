@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL;
+const API_URL = `${process.env.NEXT_PUBLIC_API_URL}/api/v1`;
 
 const handleResponse = async (response) => {
   const data = await response.json();
