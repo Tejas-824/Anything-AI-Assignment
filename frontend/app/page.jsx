@@ -12,7 +12,7 @@ export default function HomePage() {
     const token = getToken();
 
     if (!token) {
-      router.replace('/login');
+      router.replace('/register');
     } else {
       setIsChecking(false);
     }
