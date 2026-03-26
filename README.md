@@ -7,7 +7,7 @@ User register & login (JWT + password hashing)
 Role-based access (admin vs user)
 CRUD APIs 
 Basic validation & error handling
-API testing using Postman / Swagger
+API testing using Postman
 Simple frontend (Next) for:
 login/register
 protected dashboard
