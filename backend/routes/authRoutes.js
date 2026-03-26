@@ -2,7 +2,9 @@ const express = require('express');
 const {
   registerUser,
   loginUser,
+  getProfile,
 } = require('../controllers/authController');
+
 const protect = require('../middlewares/authMiddleware');
 const { validateRequest } = require('../middlewares/errorMiddleware');
 const {
